@@ -1,4 +1,4 @@
-# MatrixSearch: Multi-Dimensional Data Filtering
+# MatrixSearch: Composite Key Data Store
 
 MatrixSearch is a simple, generic in-memory data store library written in Go. It uses composite indexing to quickly search through your data. With MatrixSearch, you can insert, update, delete, and query any type of struct by automatically generating index keys from your struct's fields.
 
