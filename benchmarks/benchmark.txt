@@ -1,0 +1,84 @@
+goos: windows
+goarch: amd64
+pkg: xvertile/matrixsearch/tests
+cpu: AMD Ryzen 5 5600X 6-Core Processor
+BenchmarkProxySearchRandom
+BenchmarkProxySearchRandom/Size_10000
+    proxy_test.go:213: Proxy SearchRandom Benchmark - Size: 10000 Query: country:fr:state:state34:speedtype:slow:mobile:false
+    proxy_test.go:213: Proxy SearchRandom Benchmark - Size: 10000 Query: country:ca:state:state1:speedtype:fast:mobile:true
+    proxy_test.go:213: Proxy SearchRandom Benchmark - Size: 10000 Query: country:de:state:state29:speedtype:medium:mobile:true
+    proxy_test.go:213: Proxy SearchRandom Benchmark - Size: 10000 Query: country:us:state:state22:speedtype:medium:mobile:true
+    proxy_test.go:213: Proxy SearchRandom Benchmark - Size: 10000 Query: country:de:state:state0:speedtype:medium:mobile:true
+BenchmarkProxySearchRandom/Size_10000-12         	18413295	        72.04 ns/op
+BenchmarkProxySearchRandom/Size_100000
+    proxy_test.go:213: Proxy SearchRandom Benchmark - Size: 100000 Query: country:uk:state:state28:speedtype:slow:mobile:true
+    proxy_test.go:213: Proxy SearchRandom Benchmark - Size: 100000 Query: country:us:state:state0:speedtype:fast:mobile:true
+    proxy_test.go:213: Proxy SearchRandom Benchmark - Size: 100000 Query: country:de:state:state25:speedtype:slow:mobile:true
+    proxy_test.go:213: Proxy SearchRandom Benchmark - Size: 100000 Query: country:us:state:state35:speedtype:medium:mobile:true
+    proxy_test.go:213: Proxy SearchRandom Benchmark - Size: 100000 Query: country:us:state:state11:speedtype:slow:mobile:true
+BenchmarkProxySearchRandom/Size_100000-12        	14956308	        82.73 ns/op
+BenchmarkProxySearchRandom/Size_1000000
+    proxy_test.go:213: Proxy SearchRandom Benchmark - Size: 1000000 Query: country:us:state:state33:speedtype:medium:mobile:true
+    proxy_test.go:213: Proxy SearchRandom Benchmark - Size: 1000000 Query: country:uk:state:state29:speedtype:medium:mobile:true
+    proxy_test.go:213: Proxy SearchRandom Benchmark - Size: 1000000 Query: country:ca:state:state34:speedtype:slow:mobile:true
+    proxy_test.go:213: Proxy SearchRandom Benchmark - Size: 1000000 Query: country:de:state:state10:speedtype:medium:mobile:false
+    proxy_test.go:213: Proxy SearchRandom Benchmark - Size: 1000000 Query: country:us:state:state47:speedtype:medium:mobile:true
+BenchmarkProxySearchRandom/Size_1000000-12       	 9485528	       142.6 ns/op
+PASS
+
+goos: windows
+goarch: amd64
+pkg: xvertile/matrixsearch/tests
+cpu: AMD Ryzen 5 5600X 6-Core Processor
+BenchmarkFruitSearchRandom
+BenchmarkFruitSearchRandom/Size_10000
+    fruit_test.go:169: Fruit SearchRandom Benchmark - Size: 10000 Query: name:Durian:color:Orange:country:HhoxeOkTGrGcnLOmgEMQgRWwx:harvestyear:93:calories:47
+    fruit_test.go:169: Fruit SearchRandom Benchmark - Size: 10000 Query: name:Cherry:color:Green:country:BrFwkcwesOxGtZEOMLcOxUSJj:harvestyear:44:calories:45
+    fruit_test.go:169: Fruit SearchRandom Benchmark - Size: 10000 Query: name:Banana:color:Green:country:rthfUYoBFvlTxCxRNeBJDJiOn:harvestyear:98:calories:44
+    fruit_test.go:169: Fruit SearchRandom Benchmark - Size: 10000 Query: name:Banana:color:Purple:country:lhcrPgmdVeOLxuHihiqpOoSav:harvestyear:63:calories:59
+    fruit_test.go:169: Fruit SearchRandom Benchmark - Size: 10000 Query: name:Cherry:color:Green:country:ORXhYamcKxqShcgJMfJMydREc:harvestyear:94:calories:77
+BenchmarkFruitSearchRandom/Size_10000-12         	29544715	        44.00 ns/op
+BenchmarkFruitSearchRandom/Size_100000
+    fruit_test.go:169: Fruit SearchRandom Benchmark - Size: 100000 Query: name:Apple:color:Yellow:country:pXLnAWLTFRVWmyTjeqWhwTguh:harvestyear:23:calories:27
+    fruit_test.go:169: Fruit SearchRandom Benchmark - Size: 100000 Query: name:Apple:color:Yellow:country:RiRJUTbMKxhJVIhZXyoShIWUI:harvestyear:81:calories:67
+    fruit_test.go:169: Fruit SearchRandom Benchmark - Size: 100000 Query: name:Elderberry:color:Red:country:XrAlPkZdbgkCmOVHySRkOSVIj:harvestyear:64:calories:96
+    fruit_test.go:169: Fruit SearchRandom Benchmark - Size: 100000 Query: name:Cherry:color:Orange:country:DeUBScVVgEGmGKrntTdLitsVr:harvestyear:31:calories:70
+    fruit_test.go:169: Fruit SearchRandom Benchmark - Size: 100000 Query: name:Elderberry:color:Purple:country:GcvpxjfhjZKdxiqUGdvThXhZK:harvestyear:88:calories:96
+BenchmarkFruitSearchRandom/Size_100000-12        	30362605	        47.15 ns/op
+BenchmarkFruitSearchRandom/Size_1000000
+    fruit_test.go:169: Fruit SearchRandom Benchmark - Size: 1000000 Query: name:Cherry:color:Purple:country:SnwtAlsiDjiLEiJnnnALuIaxU:harvestyear:5:calories:57
+    fruit_test.go:169: Fruit SearchRandom Benchmark - Size: 1000000 Query: name:Apple:color:Yellow:country:aUauXJOlIjuiZgGguwSUHnFUU:harvestyear:85:calories:10
+    fruit_test.go:169: Fruit SearchRandom Benchmark - Size: 1000000 Query: name:Elderberry:color:Purple:country:yxVuOSguwutHmHBlBDmbPIJes:harvestyear:27:calories:74
+    fruit_test.go:169: Fruit SearchRandom Benchmark - Size: 1000000 Query: name:Durian:color:Purple:country:tDYvpLiXgRekAXJKLrqfOIxOA:harvestyear:52:calories:52
+    fruit_test.go:169: Fruit SearchRandom Benchmark - Size: 1000000 Query: name:Apple:color:Green:country:GaaWslJKCWlsKJPJDSnojolvu:harvestyear:76:calories:32
+BenchmarkFruitSearchRandom/Size_1000000-12       	32117593	        37.42 ns/op
+PASS
+
+goos: windows
+goarch: amd64
+pkg: xvertile/matrixsearch/tests
+cpu: AMD Ryzen 5 5600X 6-Core Processor
+BenchmarkCarSearchRandom
+BenchmarkCarSearchRandom/Size_10000
+    car_test.go:197: Car SearchRandom Benchmark - Size: 10000 Query: model:ModelX:brand:Tesla:year:1994:color:Black:manufacturer:AVDIgSk:country:alias
+    car_test.go:197: Car SearchRandom Benchmark - Size: 10000 Query: model:Roadster:brand:Tesla:year:2010:color:Red:manufacturer:QXkFlOD:country:qui
+    car_test.go:197: Car SearchRandom Benchmark - Size: 10000 Query: model:Roadster:brand:Tesla:year:2015:color:Silver:manufacturer:ZlbpSrq:country:consectetur
+    car_test.go:197: Car SearchRandom Benchmark - Size: 10000 Query: model:ModelS:brand:Ford:year:2018:color:Silver:manufacturer:KqVfbWH:country:laudantium
+    car_test.go:197: Car SearchRandom Benchmark - Size: 10000 Query: model:Roadster:brand:Ford:year:1994:color:Blue:manufacturer:ohTSxBc:country:velit
+BenchmarkCarSearchRandom/Size_10000-12         	32153650	        36.54 ns/op
+BenchmarkCarSearchRandom/Size_100000
+    car_test.go:197: Car SearchRandom Benchmark - Size: 100000 Query: model:ModelX:brand:Audi:year:1990:color:Silver:manufacturer:mWygVLO:country:sequi
+    car_test.go:197: Car SearchRandom Benchmark - Size: 100000 Query: model:ModelY:brand:Audi:year:1998:color:Black:manufacturer:gobBeAr:country:quas
+    car_test.go:197: Car SearchRandom Benchmark - Size: 100000 Query: model:Roadster:brand:Ford:year:2001:color:Black:manufacturer:aFiiBRN:country:quia
+    car_test.go:197: Car SearchRandom Benchmark - Size: 100000 Query: model:ModelX:brand:Audi:year:1996:color:Blue:manufacturer:GTXhevh:country:sequi
+    car_test.go:197: Car SearchRandom Benchmark - Size: 100000 Query: model:ModelS:brand:Ford:year:2009:color:Blue:manufacturer:CgQdhpU:country:error
+    car_test.go:197: Car SearchRandom Benchmark - Size: 100000 Query: model:Model3:brand:Mercedes:year:2019:color:White:manufacturer:ofxVXyW:country:nihil
+BenchmarkCarSearchRandom/Size_100000-12        	30007261	        43.97 ns/op
+BenchmarkCarSearchRandom/Size_1000000
+    car_test.go:197: Car SearchRandom Benchmark - Size: 1000000 Query: model:ModelX:brand:Tesla:year:2010:color:Blue:manufacturer:fjUVLwb:country:voluptate
+    car_test.go:197: Car SearchRandom Benchmark - Size: 1000000 Query: model:ModelS:brand:Mercedes:year:2012:color:Blue:manufacturer:OVwctXQ:country:velit
+    car_test.go:197: Car SearchRandom Benchmark - Size: 1000000 Query: model:ModelY:brand:BMW:year:2012:color:Red:manufacturer:xVQqeev:country:quo
+    car_test.go:197: Car SearchRandom Benchmark - Size: 1000000 Query: model:ModelS:brand:BMW:year:1994:color:Blue:manufacturer:lZWEcbI:country:qui
+    car_test.go:197: Car SearchRandom Benchmark - Size: 1000000 Query: model:Model3:brand:Mercedes:year:2017:color:Black:manufacturer:KQkOBPR:country:perspiciatis
+BenchmarkCarSearchRandom/Size_1000000-12       	33097969	        38.18 ns/op
+PASS
