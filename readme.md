@@ -6,7 +6,9 @@ MatrixSearch is a simple, generic in-memory data store library written in Go. It
 
 MatrixSearch lets you filter through your data on multiple dimensions. Whether you have a list of cars, fruits, proxies, or any other structured data, MatrixSearch will allow you to efficiently filter your data at every level of your struct. Think of it as a tool for **multi-field data filtering**.
 
-![Proxies Dump](examples/dumps/proxies.svg)
+<div align="center">
+  <img src="examples/dumps/proxies.svg" alt="Proxies Dump">
+</div>
 
 ## How It Works
 
@@ -19,7 +21,6 @@ MatrixSearch lets you filter through your data on multiple dimensions. Whether y
 - **Random Result Retrieval:**  
   The `SearchRandom` function returns one random item that matches your query, which is useful when you only need a sample from a large dataset.
 
-![Proxies Dump](examples/dumps/fruits.svg)
 
 
 
